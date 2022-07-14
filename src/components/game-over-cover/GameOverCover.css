@@ -1,0 +1,34 @@
+.gameOverContainer {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameOverTitle {
+  font-size: 48px;
+  margin: 12px 0;
+}
+
+.gameOverButton {
+  background-color: transparent;
+  border: 1px solid white;
+  outline: 0;
+  padding: 12px;
+  margin-top: 12px;
+  font-size: 24px;
+  color: white;
+  transition: background-color ease-in-out 0.1s;
+  cursor: pointer;
+}
+
+.gameOverButton:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}

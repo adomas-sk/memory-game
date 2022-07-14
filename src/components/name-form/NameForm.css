@@ -1,0 +1,23 @@
+.nameForm {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 34px;
+}
+
+.nameFormInput {
+  padding: 6px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.nameFormInput:disabled {
+  background-color:rgba(211, 211, 211, 0.323)
+}
+
+.nameFormButton {
+  background-color: rgba(255,255,255, 0.1);
+  color: white;
+  border: 1px solid white;
+}
